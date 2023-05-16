@@ -1,0 +1,7 @@
+sqlalchemy
+flask
+flask_restful
+werkzeug
+PyJWT
+pytest
+requests

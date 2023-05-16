@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flask_api"
+version = "0.1.0"
+description = "created by rahul"
+authors = ["rahul"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^2.0.13"
+Flask = "^2.3.2"
+Flask-RESTful = "^0.3.9"
+Werkzeug = "^2.3.4"
+PyJWT = "^2.7.0"
+pytest = "^7.3.1"
+requests = "^2.30.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
